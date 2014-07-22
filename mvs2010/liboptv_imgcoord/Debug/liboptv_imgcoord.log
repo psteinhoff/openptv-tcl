@@ -1,0 +1,70 @@
+﻿Build started 22.07.2014 22:12:11.
+     1>Project "D:\OpenPTV\openptv-tcl\mvs2010\liboptv_imgcoord\liboptv_imgcoord.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\liboptv_imgcoord.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\OpenPTV\openptv\liboptv\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D IMG_COORD_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\..\openptv\liboptv\src\epi.c ..\..\..\openptv\liboptv\src\imgcoord.c ..\..\..\openptv\liboptv\src\lsqadj.c ..\..\..\openptv\liboptv\src\multimed.c ..\..\..\openptv\liboptv\src\mvs_main_test.c ..\..\..\openptv\liboptv\src\ray_tracing.c ..\..\..\openptv\liboptv\src\trafo.c
+         trafo.c
+         ray_tracing.c
+     1>d:\openptv\openptv\liboptv\src\ray_tracing.c(60): warning C4101: 'factor' : unreferenced local variable
+         mvs_main_test.c
+         multimed.c
+     1>d:\openptv\openptv\liboptv\src\multimed.c(335): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\openptv\openptv\liboptv\src\multimed.c(336): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\openptv\openptv\liboptv\src\multimed.c(346): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\openptv\openptv\liboptv\src\multimed.c(228): warning C4101: 'fpp' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\multimed.c(512): warning C4101: 'Zmax_t' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\multimed.c(512): warning C4101: 'Zmin_t' : unreferenced local variable
+         lsqadj.c
+     1>d:\openptv\openptv\liboptv\src\lsqadj.c(166): warning C4101: 'dummy' : unreferenced local variable
+         imgcoord.c
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(27): warning C4028: formal parameter 5 different from declaration
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(34): warning C4047: 'function' : 'double *' differs in levels of indirection from 'double (*)[3]'
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(34): warning C4024: 'trans_Cam_Point' : different types for formal and actual parameter 11
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(34): warning C4047: 'function' : 'double *' differs in levels of indirection from 'double (*)[3]'
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(34): warning C4024: 'trans_Cam_Point' : different types for formal and actual parameter 12
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(29): warning C4101: 'cal_t' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(92): warning C4047: 'function' : 'double *' differs in levels of indirection from 'double (*)[3]'
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(92): warning C4024: 'trans_Cam_Point' : different types for formal and actual parameter 11
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(92): warning C4047: 'function' : 'double *' differs in levels of indirection from 'double (*)[3]'
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(92): warning C4024: 'trans_Cam_Point' : different types for formal and actual parameter 12
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(89): warning C4101: 'Yh' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(89): warning C4101: 'Xh' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\imgcoord.c(89): warning C4101: 'Zh' : unreferenced local variable
+         epi.c
+     1>d:\openptv\openptv\liboptv\src\epi.c(23): warning C4101: 'a' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\epi.c(24): warning C4101: 'Y1' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\epi.c(24): warning C4101: 'Z1' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\epi.c(23): warning C4101: 'b' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\epi.c(24): warning C4101: 'X1' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\epi.c(23): warning C4101: 'c' : unreferenced local variable
+     1>d:\openptv\openptv\liboptv\src\epi.c(148): warning C4101: 'particle_size' : unreferenced local variable
+         Generating Code...
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OpenPTV\openptv-tcl\mvs2010\Debug\liboptv_imgcoord.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\liboptv_imgcoord.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\OpenPTV\openptv-tcl\mvs2010\Debug\liboptv_imgcoord.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\OpenPTV\openptv-tcl\mvs2010\Debug\liboptv_imgcoord.lib" /MACHINE:X86 /DLL Debug\liboptv_imgcoord.dll.embed.manifest.res
+         Debug\calibration.obj
+         Debug\epi.obj
+         Debug\imgcoord.obj
+         Debug\lsqadj.obj
+         Debug\multimed.obj
+         Debug\mvs_main_test.obj
+         Debug\parameters.obj
+         Debug\ray_tracing.obj
+         Debug\tracking_frame_buf.obj
+         Debug\trafo.obj
+       Manifest:
+         c:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\liboptv_imgcoord.dll.embed.manifest" /manifest Debug\liboptv_imgcoord.dll.intermediate.manifest
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         liboptv_imgcoord.vcxproj -> D:\OpenPTV\openptv-tcl\mvs2010\Debug\liboptv_imgcoord.dll
+       FinalizeBuildStatus:
+         Deleting file "Debug\liboptv_imgcoord.unsuccessfulbuild".
+         Touching "Debug\liboptv_imgcoord.lastbuildstate".
+     1>Done Building Project "D:\OpenPTV\openptv-tcl\mvs2010\liboptv_imgcoord\liboptv_imgcoord.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.51

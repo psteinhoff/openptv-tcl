@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{094E1BB6-1B9D-4734-9692-C582254EAAD8}"
+	ProjectSection(SolutionItems) = preProject
+		liboptv.vsmdi = liboptv.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liboptv_imgcoord", "liboptv_imgcoord\liboptv_imgcoord.vcxproj", "{8B21F382-C1F2-4255-BB75-408EE06A686B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liboptv_imageprocessing", "liboptv_imageprocessing\liboptv_imageprocessing.vcxproj", "{19FEB59D-5B16-4319-A715-BE18D1ADE985}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = liboptv.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Release|Win32.ActiveCfg = Release|Win32
+		{8B21F382-C1F2-4255-BB75-408EE06A686B}.Release|Win32.Build.0 = Release|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Debug|Win32.ActiveCfg = Debug|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Debug|Win32.Build.0 = Debug|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Release|Any CPU.ActiveCfg = Release|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Release|Win32.ActiveCfg = Release|Win32
+		{19FEB59D-5B16-4319-A715-BE18D1ADE985}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
